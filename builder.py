@@ -70,7 +70,7 @@ def update_script_ip(script_path, ip):
     """Replace placeholder IP in the PowerShell script with the actual IP."""
     with open(script_path, 'r') as f:
         content = f.read()
-    new_content = content.replace("YOUR_KALI_IP", ip)
+    new_content = content.replace("10.46.70.32", ip)
     with open(script_path, 'w') as f:
         f.write(new_content)
 
