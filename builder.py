@@ -20,9 +20,11 @@ window.config(bg="#1a1a1a")
 window.resizable(False, False)
 
 # --- Fonts ---
+# --- Fonts ---
 bold_font = ("Arial", 12, "bold", "italic")
 title_font = ("Courier", 22, "bold")
 normal_font = ("Arial", 11)
+italic_font = ("Arial", 10, "italic") # <-- YE LINE ADD KARO
 
 # --- Banner Frame (Zphisher Style) ---
 banner_frame = tk.Frame(window, bg="#0f0f0f", relief=tk.SUNKEN, bd=2)
